@@ -21,25 +21,25 @@
                 <div class="row tm-welcome-row tm-services">
                     <div class="col-md-3 col-sm-6">
                         <figure class="tm-services-img">
-                            <img src="style/img/services-1.jpg" alt="Image" class="img-fluid">        
+                            <img src="{{ asset('style/img/services-1.jpg') }}" alt="Image" class="img-fluid">        
                             <figcaption class="tm-service-description">Business Strategy</figcaption>
                         </figure>
                     </div>
                     <div class="col-md-3 col-sm-6">
                         <figure class="tm-services-img">
-                            <img src="style/img/services-2.jpg" alt="Image" class="img-fluid">        
+                            <img src="{{ asset('style/img/services-2.jpg') }}" alt="Image" class="img-fluid">        
                             <figcaption class="tm-service-description">Digital Marketing</figcaption>
                         </figure>
                     </div>
                     <div class="col-md-3 col-sm-6">
                         <figure class="tm-services-img">
-                            <img src="style/img/services-3.jpg" alt="Image" class="img-fluid">    
+                            <img src="{{ asset('style/img/services-3.jpg') }}" alt="Image" class="img-fluid">    
                             <figcaption class="tm-service-description">Social Platforms</figcaption>
                         </figure>
                     </div>
                     <div class="col-md-3 col-sm-6">
                         <figure class="tm-services-img">
-                            <img src="style/img/services-4.jpg" alt="Image" class="img-fluid">    
+                            <img src="{{ asset('style/img/services-4.jpg') }}" alt="Image" class="img-fluid">    
                             <figcaption class="tm-service-description">New Media</figcaption>
                         </figure>
                     </div>
@@ -104,11 +104,11 @@
                 
                 <div class="tm-partners mx-auto">
                     <div>
-                        <img src="style/img/partner-01.png" alt="Partner Image" class="img-fluid">
-                        <img src="style/img/partner-02.png" alt="Partner Image" class="img-fluid">
-                        <img src="style/img/partner-03.png" alt="Partner Image" class="img-fluid">
-                        <img src="style/img/partner-04.png" alt="Partner Image" class="img-fluid">
-                        <img src="style/img/partner-05.png" alt="Partner Image" class="img-fluid">    
+                        <img src="{{ asset('style/img/partner-01.png') }}" alt="Partner Image" class="img-fluid">
+                        <img src="{{ asset('style/img/partner-02.png') }}" alt="Partner Image" class="img-fluid">
+                        <img src="{{ asset('style/img/partner-03.png') }}" alt="Partner Image" class="img-fluid">
+                        <img src="{{ asset('style/img/partner-04.png') }}" alt="Partner Image" class="img-fluid">
+                        <img src="{{ asset('style/img/partner-05.png') }}" alt="Partner Image" class="img-fluid">    
                     </div>
                     
                     <p class="tm-partner-text">Etiam et odio ut nibh suscipit eleifend. Sed facilisis, enim nec auctor vehicula, dolor odio venenatis turpis,
